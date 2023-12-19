@@ -13,7 +13,7 @@ const FrontPage = ({ pageDirectory, showLogoutLink = false }: { pageDirectory: s
 
     return (
         <>
-            <PageTemplate title={'wacat test application'} content={content} 
+            <PageTemplate title={'Test application'} content={content} 
                    loading={loading} setLoading={setLoading} showLogoutLink={showLogoutLink}/>
         </>
     );

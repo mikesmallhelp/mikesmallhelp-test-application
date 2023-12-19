@@ -29,7 +29,6 @@ const WorkingPage = ({ title }: { title: string }) => {
             <div>{result}</div>
 
             <a href='/'>Back to main page</a>
-            <a href='https://github.com/mikesmallhelp'>Github - don't go here</a>
         </div>
     );
 

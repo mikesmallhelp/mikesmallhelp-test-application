@@ -1,8 +1,8 @@
-import React, { useEffect, ReactNode } from 'react';
+import React, { useEffect, ReactNode, Dispatch, SetStateAction } from 'react';
 import { fetchData } from '../util/util';
 
 const PageTemplate = ({ title, content, loading, setLoading, showLogoutLink = false }:
-    { title: string, content: ReactNode, loading: boolean, setLoading: Function, showLogoutLink?: boolean }) => {
+    { title: string, content: ReactNode, loading: boolean, setLoading: Dispatch<SetStateAction<boolean>>, showLogoutLink?: boolean }) => {
 
     useEffect(() => {
         fetchData('200', setLoading);

@@ -26,6 +26,8 @@ const WorkingPage = ({ title }: { title: string }) => {
 
             <input type="checkbox" />
 
+            <input type="date"/>
+
             <button onClick={handleButtonClick}>Normal button</button>
 
             <div>{result}</div>

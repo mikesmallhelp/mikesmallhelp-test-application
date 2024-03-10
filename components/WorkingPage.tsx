@@ -24,6 +24,8 @@ const WorkingPage = ({ title }: { title: string }) => {
                 <option value="bbb">bbb</option>
             </select>
 
+            <input type="checkbox" />
+
             <button onClick={handleButtonClick}>Normal button</button>
 
             <div>{result}</div>

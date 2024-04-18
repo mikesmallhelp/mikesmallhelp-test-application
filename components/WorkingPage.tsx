@@ -21,6 +21,11 @@ const WorkingPage = ({ title }: { title: string }) => {
             <input />
             <br />
 
+            <div>
+                <label htmlFor="dateOfBirth">Your Date of Birth Here</label>
+                <input type="text" id="dateOfBirth" />
+            </div>
+
             <div>Menu selection:</div>
             <select name="someValues" id="someValues">
                 <option value="Fish">Fish</option>
@@ -63,7 +68,7 @@ const WorkingPage = ({ title }: { title: string }) => {
             <input type="url" />
             <br />
 
-            <button onClick={handleButtonClick}>Normal button</button>
+            <button onClick={handleButtonClick}>Registerate and win 2000 $</button>
 
             <div>{result}</div>
 
